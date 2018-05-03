@@ -2,7 +2,7 @@
 
 namespace NameSpace
 {
-    class Program
+    class NameSpace
     {
         static void Main(string[] args)
         {
