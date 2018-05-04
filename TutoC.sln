@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureViewer", "PictureVie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSynt", "SpeechSynt\SpeechSynt.csproj", "{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadenas", "Cadenas\Cadenas.csproj", "{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
