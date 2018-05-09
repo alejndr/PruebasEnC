@@ -25,13 +25,29 @@ namespace Diccionarios
 
             //};
 
+            // Obtenemos el valor de cada posición por su KEY
             Console.WriteLine(Estados["CA"]);
-            
+
+            // Iteración entre los elementos
+
+            // 1º forma 
+            //foreach (var NombreEstados in Estados)
+            //{
+            //    Console.WriteLine(NombreEstados);
+            //}
 
             foreach (var NombreEstados in Estados)
             {
-                Console.WriteLine(NombreEstados);
+                var NombreDelEstado = NombreEstados.Value;
+                var Abreviatura = NombreEstados.Key;
+
+                Console.WriteLine($"Key: {Abreviatura} Value: {NombreDelEstado} ");
+
+
             }
+
+
+            
 
             Console.ReadLine();
 
