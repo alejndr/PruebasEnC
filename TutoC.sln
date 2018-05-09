@@ -49,7 +49,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSynt", "SpeechSynt\Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadenas", "Cadenas\Cadenas.csproj", "{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{53943A60-9A55-4236-8E01-BD3DD2121E8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosGenericos", "Generics\MetodosGenericos.csproj", "{53943A60-9A55-4236-8E01-BD3DD2121E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diccionarios", "Diccionarios\Diccionarios.csproj", "{9A78AD48-A31D-4762-B6BB-A10C92D4C241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A78AD48-A31D-4762-B6BB-A10C92D4C241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A78AD48-A31D-4762-B6BB-A10C92D4C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A78AD48-A31D-4762-B6BB-A10C92D4C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A78AD48-A31D-4762-B6BB-A10C92D4C241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

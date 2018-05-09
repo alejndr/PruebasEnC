@@ -16,6 +16,7 @@ namespace Generics
 
             double Decimales = 1.56;
 
+            
 
             // Prueba con int
             MetodoGenerico<int>(numeros); // entre <> podemos indicar el tipo que queremos que use el metodo.
