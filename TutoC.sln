@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaArray", "Plantilla\PracticaArray.csproj", "{E05C3242-B644-4948-9928-86882A07DC2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodo", "Metodo\Metodo.csproj", "{F712D28D-6A99-4E0B-90B5-568332FB214C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Metodo\Menu.csproj", "{F712D28D-6A99-4E0B-90B5-568332FB214C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{47AFD06B-010C-411F-983F-B23CEAAE93BF}"
 EndProject
@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumConversions", "EnumConversions\EnumConversions.csproj", "{B804127E-92E2-41F2-A930-C7C1AACAAC20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pruebas", "Pruebas\Pruebas.csproj", "{E1F50D9C-A4D3-418A-9833-697199B2C964}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listasGenericas", "listasGenericas\listasGenericas.csproj", "{9E12B83C-456E-4EE5-A0CE-2272C7B2F1C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegados", "Delegados\Delegados.csproj", "{105E9D2F-A28E-4D27-9FD7-7360B6488BE4}"
@@ -50,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSynt", "SpeechSynt\SpeechSynt.csproj", "{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadenas", "Cadenas\Cadenas.csproj", "{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{53943A60-9A55-4236-8E01-BD3DD2121E8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,10 +121,6 @@ Global
 		{B804127E-92E2-41F2-A930-C7C1AACAAC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B804127E-92E2-41F2-A930-C7C1AACAAC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B804127E-92E2-41F2-A930-C7C1AACAAC20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1F50D9C-A4D3-418A-9833-697199B2C964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1F50D9C-A4D3-418A-9833-697199B2C964}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1F50D9C-A4D3-418A-9833-697199B2C964}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1F50D9C-A4D3-418A-9833-697199B2C964}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E12B83C-456E-4EE5-A0CE-2272C7B2F1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E12B83C-456E-4EE5-A0CE-2272C7B2F1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E12B83C-456E-4EE5-A0CE-2272C7B2F1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -153,6 +149,10 @@ Global
 		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6F955A-53F4-4FC2-A496-6D67ACBC9880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53943A60-9A55-4236-8E01-BD3DD2121E8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

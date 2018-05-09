@@ -8,26 +8,7 @@ namespace Delegados
 {
     class Delegados
     {
-        public delegate int Operacion(int a, int b);
-
-        public static int Suma(int a, int b)
-        {
-            Console.WriteLine("Ejecutando suma");
-            return a + b;
-        }
-
-        public static int Resta(int r, int t)
-        {
-            Console.WriteLine("Ejecutando resta");
-            return r - t;
-        }
-
-        public static int Multiplicacion(int x, int y)
-        {
-            Console.WriteLine("Ejecutando multiplicación");
-            return x * y;
-        }
-
+        
         static void Main(string[] args)
         {
 
@@ -55,6 +36,51 @@ namespace Delegados
 
             int r4 = combinado(4, 5); // r4 es igual a 20, pero la consola mostrara: Suma ejecutada y multiplicación ejecutada.
 
+        }
+
+
+        /// <summary>
+        /// Delegado.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public delegate int Operacion(int a, int b);
+
+        /// <summary>
+        /// Suma.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static int Suma(int a, int b)
+        {
+            Console.WriteLine("Ejecutando suma");
+            return a + b;
+        }
+        
+        /// <summary>
+        /// Resta
+        /// </summary>
+        /// <param name="r"></param>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public static int Resta(int r, int t)
+        {
+            Console.WriteLine("Ejecutando resta");
+            return r - t;
+        }
+
+        /// <summary>
+        /// Multiplicación.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public static int Multiplicacion(int x, int y)
+        {
+            Console.WriteLine("Ejecutando multiplicación");
+            return x * y;
         }
     }
 }

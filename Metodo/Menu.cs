@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Metodo
 {
-    class metodo
+    class Menu
     {
         static void Main(string[] args)
         {
             String myChoice = "z";
 
-            metodo om = new metodo();
+            Menu om = new Menu();
 
             while (myChoice != "q" && myChoice != "Q")
             {
