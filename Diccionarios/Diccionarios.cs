@@ -42,13 +42,11 @@ namespace Diccionarios
                 var Abreviatura = NombreEstados.Key;
 
                 Console.WriteLine($"Key: {Abreviatura} Value: {NombreDelEstado} ");
-
-
+                
             }
 
 
             
-
             Console.ReadLine();
 
         }
