@@ -41,8 +41,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegados", "Delegados\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLibreria", "GridLibreria\GridLibreria.csproj", "{B87AAA43-0762-4B38-9A7A-FFBA0AC070AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{FC273AFD-4FA7-4EB6-AAB7-063F1D5FB5D4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureViewer", "PictureViewer\PictureViewer.csproj", "{15513C51-6E0B-417A-9616-1088D63A19E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSynt", "SpeechSynt\SpeechSynt.csproj", "{D9BB1B5D-5F63-4F2E-95B9-C7AC550CA823}"
@@ -60,6 +58,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecuenciaFibonacci", "SecuenciaFibonacci\SecuenciaFibonacci.csproj", "{43650754-3A96-4557-9940-9309BA6C2D7C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{8B8064E5-93E9-40CB-8DAC-BE278881456F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterAndSetter", "Constructor\GetterAndSetter.csproj", "{162A41B3-FB3E-4335-8C7D-31601DD5B5E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,10 +143,6 @@ Global
 		{B87AAA43-0762-4B38-9A7A-FFBA0AC070AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87AAA43-0762-4B38-9A7A-FFBA0AC070AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87AAA43-0762-4B38-9A7A-FFBA0AC070AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC273AFD-4FA7-4EB6-AAB7-063F1D5FB5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC273AFD-4FA7-4EB6-AAB7-063F1D5FB5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC273AFD-4FA7-4EB6-AAB7-063F1D5FB5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC273AFD-4FA7-4EB6-AAB7-063F1D5FB5D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15513C51-6E0B-417A-9616-1088D63A19E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15513C51-6E0B-417A-9616-1088D63A19E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15513C51-6E0B-417A-9616-1088D63A19E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -183,6 +179,10 @@ Global
 		{8B8064E5-93E9-40CB-8DAC-BE278881456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B8064E5-93E9-40CB-8DAC-BE278881456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B8064E5-93E9-40CB-8DAC-BE278881456F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162A41B3-FB3E-4335-8C7D-31601DD5B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162A41B3-FB3E-4335-8C7D-31601DD5B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162A41B3-FB3E-4335-8C7D-31601DD5B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162A41B3-FB3E-4335-8C7D-31601DD5B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
