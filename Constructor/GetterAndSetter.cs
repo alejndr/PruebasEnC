@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Constructor
 {
-    class GetterAndSetter
+    public class GetterAndSetter
     {
 
         /// <summary>
@@ -24,7 +24,7 @@ namespace Constructor
             {
                 get
                 {
-                    return Nombre + ", " + PrimerApellido + ", " + SegundoApellido;
+                    return Nombre + ", " + PrimerApellido + " " + SegundoApellido;
                 }
             }
         }
