@@ -6,7 +6,7 @@ using static Constructor.GetterAndSetter;
 namespace GetterAndSetterTest
 {
     [TestClass]
-    public class UnitTest1
+    public class GetterAndSetterTest
     {
         [TestMethod]
         public void ComprobarNombreCompleto()
@@ -48,7 +48,7 @@ namespace GetterAndSetterTest
             string expected = "Hender";
 
             Assert.AreEqual(persona.PrimerApellido, expected);
-
+            
         }
     }
 }

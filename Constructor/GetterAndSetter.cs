@@ -16,6 +16,16 @@ namespace Constructor
         /// </summary>
         public class Person
         {
+            public Person()
+            {
+
+            }
+
+            public Person(int ID)
+            {
+                this.ID = ID;
+            }
+
             public  int ID { get; private set; }
             public string Nombre { get; set; }
             public string PrimerApellido { get; set; }
