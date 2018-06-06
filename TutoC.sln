@@ -65,6 +65,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{581A5E8F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterAndSetterTest", "GetterAndSetterTest\GetterAndSetterTest.csproj", "{C2EE9498-88B8-4925-B07E-8EE5A61B21F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqShowLargeFiles", "LinqShowLargeFiles\LinqShowLargeFiles.csproj", "{BCAEAFE2-3CEA-4ACF-A038-F8301802A652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{C2EE9498-88B8-4925-B07E-8EE5A61B21F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2EE9498-88B8-4925-B07E-8EE5A61B21F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2EE9498-88B8-4925-B07E-8EE5A61B21F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAEAFE2-3CEA-4ACF-A038-F8301802A652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAEAFE2-3CEA-4ACF-A038-F8301802A652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAEAFE2-3CEA-4ACF-A038-F8301802A652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAEAFE2-3CEA-4ACF-A038-F8301802A652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
